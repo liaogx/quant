@@ -1,0 +1,7 @@
+td.aggregate {
+    font-weight: bold;
+}
+
+td.aggregate span.aggregate_title {
+    float: right;
+}

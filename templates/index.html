@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>上传股票信息 stock_info.xlsx</p>
+<form class="" action="{% url 'stock_info' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="stock_info">
+    <input type="submit" value="上传">
+</form>
+<div>============================</div>
+<p>上传十大股东信息 holder_info.xlsx</p>
+<form class="" action="{% url 'holder_info' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="holder_info">
+    <input type="submit" value="上传">
+</form>
+<div>============================</div>
+<p>上传十大流通股东信息 liquid_holder_info.xlsx</p>
+<form class="" action="{% url 'liquid_holder_info' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="liquid_holder_info">
+    <input type="submit" value="上传">
+</form>
+<div>============================</div>
+<p>上传日K线信息 market_day.xlsx</p>
+<form class="" action="{% url 'market_day' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="market_day">
+    <input type="submit" value="上传">
+</form>
+<div>============================</div>
+{#<p>上传周K线信息 market_week.xlsx</p>#}
+{#<form class="" action="{% url 'market_week' %}" method="post" enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <input type="file" name="market_week">#}
+{#    <input type="submit" value="上传">#}
+{#</form>#}
+{#<div>============================</div>#}
+{#<p>上传月K线信息 market_month.xlsx</p>#}
+{#<form class="" action="{% url 'market_month' %}" method="post" enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <input type="file" name="market_month">#}
+{#    <input type="submit" value="上传">#}
+{#</form>#}
+{#<div>============================</div>#}
+{#<p>上传年K线信息 market_year.xlsx</p>#}
+{#<form class="" action="{% url 'market_year' %}" method="post" enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <input type="file" name="market_year">#}
+{#    <input type="submit" value="上传">#}
+{#</form>#}
+{#<div>============================</div>#}
+<p>上传融资融券信息 margin.xlsx</p>
+<form class="" action="{% url 'margin' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="margin">
+    <input type="submit" value="上传">
+</form>
+<div>============================</div>
+{#<p>上传形态因子信息 morphologic_factor.xlsx</p>#}
+{#<form class="" action="{% url 'morphologic_factor' %}" method="post" enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <input type="file" name="morphologic_factor">#}
+{#    <input type="submit" value="上传">#}
+{#</form>#}
+{#<div>============================</div>#}
+<p>上传财务因子信息 financial_factor.xlsx</p>
+<form class="" action="{% url 'financial_factor' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="financial_factor">
+    <input type="submit" value="上传">
+</form>
+<div>============================</div>
+{#<p>上传技术因子信息 technical_factor.xlsx</p>#}
+{#<form class="" action="{% url 'technical_factor' %}" method="post" enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <input type="file" name="technical_factor">#}
+{#    <input type="submit" value="上传">#}
+{#</form>#}
+{#<div>============================</div>#}
+</body>
+</html>
