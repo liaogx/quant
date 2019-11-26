@@ -87,7 +87,7 @@ tabulate==0.8.2
 toolz==0.9.0
 traitlets==4.3.2
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.24.2
 vine==1.1.4
 wcwidth==0.1.7
 XlsxWriter==1.0.5
