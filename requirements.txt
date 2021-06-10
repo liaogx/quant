@@ -19,7 +19,7 @@ cyordereddict==1.0.0
 Cython==0.28.3
 decorator==4.3.0
 dill==0.2.5
-Django==1.11.23
+Django==2.2.24
 django-crispy-forms==1.7.2
 django-filter==1.1.0
 django-formtools==2.1
