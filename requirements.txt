@@ -42,7 +42,7 @@ kombu==4.1.0
 line-profiler==2.1.2
 Logbook==1.0.0
 lru-dict==1.1.6
-Mako==1.0.7
+Mako==1.2.2
 Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==2.2.2
